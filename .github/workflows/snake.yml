@@ -21,8 +21,9 @@ jobs:
           colors: dark
           max-languages: 8
           animated-language-chart: true
+          commit-and-push: false
 
-      - name: Organize stats files
+      - name: Move stats files
         run: |
           mkdir -p .github/assets
           mv images/userstats.svg .github/assets/stats-main.svg 2>/dev/null || true
