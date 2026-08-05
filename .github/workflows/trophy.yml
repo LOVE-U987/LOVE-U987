@@ -1,0 +1,86 @@
+name: Generate Trophies
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      # Stars 奖杯 - 金色主题 (juicyfresh)
+      - name: Generate Stars Trophy
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: 'username=LOVE-U987&theme=juicyfresh&title=Stars&no-bg=true&no-frame=true'
+          path: .github/assets/trophy-stars.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Commits 奖杯 - 暗色主题 (onedark)
+      - name: Generate Commits Trophy
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: 'username=LOVE-U987&theme=onedark&title=Commits&no-bg=true&no-frame=true'
+          path: .github/assets/trophy-commits.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Followers 奖杯 - 赛博朋克 (radical)
+      - name: Generate Followers Trophy
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: 'username=LOVE-U987&theme=radical&title=Followers&no-bg=true&no-frame=true'
+          path: .github/assets/trophy-followers.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Repositories 奖杯 - 矩阵风格 (matrix)
+      - name: Generate Repos Trophy
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: 'username=LOVE-U987&theme=matrix&title=Repositories&no-bg=true&no-frame=true'
+          path: .github/assets/trophy-repos.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Issues 奖杯 - 东京夜景 (tokyonight)
+      - name: Generate Issues Trophy
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: 'username=LOVE-U987&theme=tokyonight&title=Issues&no-bg=true&no-frame=true'
+          path: .github/assets/trophy-issues.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # PullRequests 奖杯 - 德古拉 (dracula)
+      - name: Generate PR Trophy
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: 'username=LOVE-U987&theme=dracula&title=PullRequest&no-bg=true&no-frame=true'
+          path: .github/assets/trophy-pr.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Reviews 奖杯 - 北欧 (nord)
+      - name: Generate Reviews Trophy
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: 'username=LOVE-U987&theme=nord&title=Reviews&no-bg=true&no-frame=true'
+          path: .github/assets/trophy-reviews.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Experience 奖杯 -  Gruvbox
+      - name: Generate Experience Trophy
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: 'username=LOVE-U987&theme=gruvbox&title=Experience&no-bg=true&no-frame=true'
+          path: .github/assets/trophy-exp.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit trophies
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/assets/trophy-*.svg
+          git commit -m "Update trophies" || exit 0
+          git push
