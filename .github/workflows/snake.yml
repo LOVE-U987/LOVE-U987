@@ -15,6 +15,8 @@ jobs:
 
       # ===== Stats Cards =====
       - uses: cicirello/user-statistician@v1
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           colors: dark
           max-languages: 8
@@ -23,8 +25,8 @@ jobs:
       - name: Organize stats files
         run: |
           mkdir -p .github/assets
-          mv userstats.svg .github/assets/stats-main.svg 2>/dev/null || true
-          mv languagechart.svg .github/assets/stats-lang.svg 2>/dev/null || true
+          mv images/userstats.svg .github/assets/stats-main.svg 2>/dev/null || true
+          mv images/languagechart.svg .github/assets/stats-lang.svg 2>/dev/null || true
 
       # ===== Trophy Cards =====
       - name: Generate Stars Trophy
