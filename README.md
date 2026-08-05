@@ -70,7 +70,7 @@
   <img src="https://githubcard.com/LOVE-U987/Distant-Shock-Barrier.svg" alt="Distant Shock Barrier" />
   <img src="https://githubcard.com/LOVE-U987/This-is-a-Magic-Staff.svg" alt="This is a Magic Staff" />
 </div>
-```
+
 
 <br>
 
