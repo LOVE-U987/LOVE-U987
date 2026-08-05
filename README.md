@@ -16,7 +16,6 @@
 
 <div align="center">
   <img src="https://starry-trace-sky-moe-counter.vercel.app/get/@LOVE-U987?theme=rule34" alt="Visitor Count" />
-  <img src="https://komarev.com/ghpvc/?username=LOVE-U987&color=blueviolet" alt="Profile Views" />
 </div>
 
 <br>
