@@ -1,8 +1,7 @@
 <!-- 顶部魔法风格横幅 -->
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=U_Love&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Minecraft%20Mod%20Developer%20%7C%20Magic%20%26%20Combat%20Systems&descAlignY=55&descSize=18" alt="Header" />
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=LOVE_U987&fontSize=60&fontColor=fff" alt="Header" />
 </div>
 
 <!-- 打字机动画 -->
@@ -52,13 +51,6 @@
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=LOVE-U987&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LOVE-U987&layout=compact&theme=midnight-purple&hide_border=true&langs_count=8" alt="Top Languages" height="180" />
-</div>
-
-<br>
-
 <!-- 连续贡献 -->
 
 <div align="center">
@@ -67,13 +59,19 @@
 
 <br>
 
-<!-- 奖杯 -->
+<!-- 多彩奖杯 — 每个不同主题 -->
 
-## 🏆 Achievements
+## 📌 Featured Mods
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=LOVE-U987&theme=discord&no-bg=true&no-frame=true&column=7" alt="GitHub Trophies" />
+  <img src="https://githubcard.com/LOVE-U987/Adaptive-Nemesis.svg" alt="Adaptive Nemesis" />
+  <img src="https://githubcard.com/LOVE-U987/Legendary-Mage.svg" alt="Legendary Mage" />
 </div>
+<div align="center">
+  <img src="https://githubcard.com/LOVE-U987/Distant-Shock-Barrier.svg" alt="Distant Shock Barrier" />
+  <img src="https://githubcard.com/LOVE-U987/This-is-a-Magic-Staff.svg" alt="This is a Magic Staff" />
+</div>
+```
 
 <br>
 
@@ -91,55 +89,6 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=white" alt="IntelliJ" />
 </div>
-
-<br>
-
-<!-- 精选项目 -->
-
-## 📌 Featured Mods
-
-<div align="center">
-  <a href="https://github.com/LOVE-U987/Adaptive-Nemesis">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LOVE-U987&repo=Adaptive-Nemesis&theme=midnight-purple&hide_border=true" alt="Adaptive Nemesis" />
-  </a>
-  <a href="https://github.com/LOVE-U987/Legendary-Mage">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LOVE-U987&repo=Legendary-Mage&theme=midnight-purple&hide_border=true" alt="Legendary Mage" />
-  </a>
-</div>
-
-<div align="center">
-  <a href="https://github.com/LOVE-U987/Distant-Shock-Barrier">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LOVE-U987&repo=Distant-Shock-Barrier&theme=midnight-purple&hide_border=true" alt="Distant Shock Barrier" />
-  </a>
-  <a href="https://github.com/LOVE-U987/This-is-a-Magic-Staff">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LOVE-U987&repo=This-is-a-Magic-Staff&theme=midnight-purple&hide_border=true" alt="This is a Magic Staff" />
-  </a>
-</div>
-
-<br>
-
-<!-- 模组特色展示 -->
-
-## ⚔️ Mod Features
-
-### 🔥 Adaptive Nemesis — 动态难度平衡
-
-- 🧠 玩家战力实时评估系统
-- 📈 敌人动态属性缩放（血量/伤害/护甲/速度）
-- 🌍 世界阶段系统（击杀Boss后全服难度提升）
-- 💀 真实伤害转换（破甲机制）
-- 👹 Nemesis 记忆系统（敌人会学习你的战斗习惯）
-- 🌩️ 入侵事件系统
-
-### 🧙 Legendary Mage — 传奇法师
-
-- ⚡ 全新元素反应系统
-- 🔥 8种元素印记 + 8种元素减益效果
-- ⚗️ 元素反应组合（融化、超导、感电、超载等）
-- 📦 完整 Datapack 扩展支持
-- 🎨 基于 Iron's Spells 'n Spellbooks
-
-<br>
 
 <!-- 贡献蛇形动画 -->
 
@@ -178,5 +127,5 @@
 <!-- 底部横幅 -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:764ba2,100:667eea&height=120&section=footer&text=Forge%20Your%20Legend&fontSize=30&fontColor=ffffff&animation=fadeIn" alt="Footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&text=Forge%20Your%20Legend&fontSize=30&fontColor=fff" alt="Footer" />
 </div>
